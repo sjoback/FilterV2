@@ -1,2 +1,2 @@
-## Filter Magazine
-# Using ReactJS and JSON API
+# Filter Magazine
+## Using ReactJS and JSON API
