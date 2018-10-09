@@ -1,0 +1,379 @@
+.discover-container{
+   position: absolute;
+   width: 100vw;
+   /* height: 70vh; */
+   padding-top: 21vh;
+   padding-bottom: 5vh;
+}
+input[type="submit"]{
+   border: none;
+}
+
+.form2{
+position: absolute;
+width: 100vw;
+height: 33vh;
+top: 17vh;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+}
+.form2-overlay{
+   position: fixed;
+   top: 0;
+   width: 100vw;
+   height: 24vh;
+   background-color: rgba(0,0,0,.5);
+   z-index: 999;
+}
+.right-arrow-save{
+   position: absolute;
+   bottom: 1.8vh;
+   left: 25vw;
+   width: 20px;
+}
+.spara-resultat{
+   position: absolute;
+   bottom: -21vh;
+   right: -5vw;
+   font-size: 12pt;
+   background-color: #D9AD9C;
+   color: #fff;
+   width: 160px;
+   height: 35px;
+   font-family: PF Din Text Comp Pro;
+   font-size: 16px;
+   border: none;
+   text-align: none;
+   box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+
+}
+.save-results{
+   float: left;
+   margin-left: 20px;
+}
+.close-form2{
+   width: 35px;
+   position: absolute;
+   right: 4vw;
+   top: 2vh;
+   border-radius: 50%;
+   box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.75);
+}
+.form2-container{
+   position: fixed;
+   top: 24vh;
+   background-color: #373737;
+   width: 100vw;
+   height: 81vh;
+   animation: .3s ease-out 0s 1 slideInFromBot;
+   z-index: 999;
+}
+.filter-btn1{
+   position: fixed;
+   top: 17vh;
+   right: 0vw;
+   height: 30px;
+   width: 75px;
+   background-image: url(../../assets/images/icons/filter.svg);
+   background-size: cover;
+   /* -webkit-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.41);
+   -moz-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.41);
+   box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.41); */
+   cursor: pointer;
+   z-index: 997;
+}
+.sam-container{
+   /* position: absolute; */
+}
+
+.margin{
+   margin: 10px;
+   height: 40px;
+}
+
+
+/* The container */
+.container {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    font-size: 16pt;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.sam{
+   top: 10vh;
+   left: 5vw;
+}
+.kult{
+   top: 10vh;
+   left: 40vw;
+}
+.sport{
+   top: 10vh;
+   right: 15vw;
+}
+.container p{
+   position: absolute;
+   top: 3px;
+   left: 6vw;
+   z-index: 11;
+
+   /* height: 35px;
+   width: 95px; */
+   /* background-color: transparent; */
+}
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 95px;
+    background-color: red;
+    z-index: 10;
+}
+.checkmark, .container p{
+   color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark{
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+    color: #000;
+
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+}
+
+
+
+
+
+.begun-reading{
+   position: absolute;
+   bottom: -10vh;
+   left: 24.5vw;
+   width: 95px;
+   height: 35px;
+   background-color: #E45757;
+   border: none;
+   color: #fff;
+   font-size: 16px;
+   font-family: PF Din Text Comp Pro;
+   box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+
+}
+.finished-reading{
+   position: absolute;
+   bottom: -10vh;
+   right: 24.5vw;
+   width: 95px;
+   height: 35px;
+   background-color: #E45757;
+   border: none;
+   color: #fff;
+   font-size: 16px;
+   font-family: PF Din Text Comp Pro;
+   box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+
+}
+
+
+.box1-label{
+   position: relative;
+   text-align: center;
+   width: 110px;
+   top: 3.8vh;
+   margin: auto;
+   color: #fff;
+   z-index: 13;
+   font-family: PF Din Text Comp Pro;
+   font-size: 16px;
+}
+.box2-label{
+   position: relative;
+   text-align: center;
+   width: 110px;
+   top: 3.8vh;
+   margin: auto;
+   color: #fff;
+   z-index: 13;
+   font-family: PF Din Text Comp Pro;
+   font-size: 16px;
+}
+
+.regular-checkbox{
+	-webkit-appearance: none;
+	background-color: #1A1A1A;
+   color: #fff;
+   box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+   font-size: 16px;
+   font-family: PF Din Text Comp Pro;
+	width: 110px;
+   height: 35px;
+	display: inline-block;
+	position: relative;
+   outline: none;
+   z-index: 12;
+   text-align: center;
+}
+.regular-checkbox1{
+	-webkit-appearance: none;
+	background-color: #E45757;
+   color: #fff;
+   box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+   font-size: 16px;
+   font-family: PF Din Text Comp Pro;
+	width: 110px;
+   height: 35px;
+	display: inline-block;
+	position: relative;
+   outline: none;
+   z-index: 12;
+   text-align: center;
+}
+
+.regular-checkbox:active, .regular-checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked, .regular-checkbox1:checked {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+   border: 3px solid #fff;
+}
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+   display: none;
+}
+
+
+
+
+@keyframes slideInFromBot {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.time-slider{
+   position: absolute;
+   top: 30vh;
+   left: 30vw;
+}
+
+
+
+.samhälle-slider, .kultur-slider{
+   width: 90vw;
+   border: 1px solid #fff;
+   height: 20vh;
+   overflow: scroll;
+}
+.genre1-title{
+   position: absolute;
+   left: 5vw;
+   margin-top: -4vh;
+   font-family: Harriet Display;
+   font-size: 16px;
+   color: #fff;
+}
+
+.genre-slider{
+   width: 95vw;
+   margin-left: 5vw;
+   margin-bottom: 25px;
+}
+.read-timer{
+   width: 320px;
+   height: 72px;
+   margin: auto;
+   margin-top: 4vh;
+}
+.read-timer-title{
+   font-family: PF Din Text Comp Pro;
+   font-size: 19px;
+   color: #fff;
+}
+.timer-interval{
+   color: #fff;
+   font-size: 14px;
+   float: left;
+   font-family: PF Din Text Comp Pro;
+}
+.fake-slider{
+   width: 100%;
+   height: 12px;
+   background-color: #D9AD9C;
+   border: 1px solid #fff;
+   margin-top: 5vh;
+}
+.fake-handle1{
+   position: absolute;
+   left: 9vw;
+   top: 84.5px;
+   width: 15px;
+   height: 24px;
+   background-color: #fff;
+   background-image: url(../../assets/images/icons/handle.png);
+   background-size: cover;
+}
+.fake-handle2{
+   position: absolute;
+   right: 9vw;
+   top: 84.5px;
+   width: 15px;
+   height: 24px;
+   background-color: #fff;
+   background-image: url(../../assets/images/icons/handle.png);
+   background-size: cover;
+}

@@ -1,0 +1,22 @@
+.min-lista-container{
+   position: absolute;
+   justify-content: center;
+   width: 100vw;
+   display: inline-block;
+   top: 23vh;
+}
+
+.thumbnail_img-vertical{
+   margin: auto;
+   border: 1px solid #fff;
+   margin: 17px;
+   width: 170px;
+   height: 170px;
+}
+.slider-titel-mylist{
+   text-align: left;
+   color: #fff;
+   font-family: Harriet Display;
+   font-size: 16px;
+   margin-left: 4vw;
+}

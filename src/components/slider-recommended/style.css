@@ -1,0 +1,30 @@
+
+.title{
+   font-size: 36px;
+   color: #FFF;
+   position: absolute;
+   top: 30vh;
+   left: 30vw;
+}
+
+
+.recommended{
+   /* position: absolute; */
+   /* left: 0vw; */
+   width: 95vw;;
+   top: 70vh;
+   margin-left: 5vw;
+}
+
+.slider-titel-rec{
+   font-family: Harriet;
+   position: absolute;
+   top: -4vh;
+   color: #fff;
+   font-size: 18px;
+   text-align: left;
+}
+
+@keyframes fade {
+   100% { opacity: 1; }
+}

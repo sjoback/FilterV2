@@ -1,0 +1,47 @@
+.menu{
+   position: fixed;
+   display: flex;
+   top: 6.8vh;
+   justify-content: center;
+   float: right;
+   width: 100vw;
+   margin-top: 3vh;
+   background-color: #1A1A1A;
+   height: 6.5vh;
+}
+.menu a{
+   font-family: Harriet Display;
+   text-decoration: none;
+   padding: 20px;
+   padding-bottom: 5px;
+   color: #fff;
+   font-size: 16px;
+}
+.menu li{list-style-type: none;}
+p{
+   text-align: center;
+}
+
+.selected{
+   text-decoration: underline;
+   color: red;
+}
+.activeRoute{
+   border-bottom: 3px solid #D9AD9C;
+   padding-bottom: 2px;
+}
+.nav-link{
+   width: 50px;
+}
+.start{
+   position: absolute;
+   left: 2vw;
+}
+.upptäck{
+   position: absolute;
+   left: 36vw;
+}
+.bibliotek{
+   position: absolute;
+   right: 2vw;
+}

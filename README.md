@@ -1,1 +1,1 @@
-# FilterV2
+## Filter Magazine

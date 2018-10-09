@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="38px" viewBox="0 0 79 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.3%" y="-16.7%" width="118.7%" height="146.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mitt-bilbotek" transform="translate(-281.000000, -127.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(285.000000, 129.000000)">
+                <path d="M5,0 L75,0 L75,30 L5,30 C2.23857625,30 3.38176876e-16,27.7614237 0,25 L0,5 C-3.38176876e-16,2.23857625 2.23857625,-1.26909153e-15 5,-1.77635684e-15 Z" id="Rectangle-16" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <g id="filter-results-button" transform="translate(10.000000, 10.000000)" fill="#000000" fill-rule="nonzero">
+                    <path d="M6.22222222,10 L9.77777778,10 L9.77777778,8.33333333 L6.22222222,8.33333333 L6.22222222,10 Z M0,0 L0,1.66666667 L16,1.66666667 L16,0 L0,0 Z M2.66666667,5.83333333 L13.3333333,5.83333333 L13.3333333,4.16666667 L2.66666667,4.16666667 L2.66666667,5.83333333 Z" id="Shape"></path>
+                </g>
+                <text id="Filter" font-family="Poppins-Regular, Poppins" font-size="11" font-weight="normal" fill="#000000">
+                    <tspan x="39.009" y="19">Filter</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

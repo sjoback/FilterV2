@@ -1,0 +1,26 @@
+.social-media{
+   display: flex;
+   position: absolute;
+   bottom: 8.5vh;
+}
+.social-media a{}
+.social-media img{}
+
+.media-circle{
+   position: absolute;
+   width: 39.89px;
+   height: 39.89px;
+   background-color: #D9AD9C;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+}
+.twitter{
+   left: 30vw;
+}
+.facebook{
+   left: 45vw;
+}
+.instagram{left: 60vw;}
+
+.twitter-img{margin: auto;}

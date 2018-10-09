@@ -1,0 +1,19 @@
+
+.title{
+   font-size: 36px;
+   color: #FFF;
+   position: absolute;
+   top: 30vh;
+   left: 30vw;
+}
+
+.new{
+   margin-left: 5vw;
+   width: 95vw;
+   height: 25vh;
+}
+
+
+@keyframes fade {
+   100% { opacity: 1; }
+}

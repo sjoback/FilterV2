@@ -1,0 +1,222 @@
+.reportage{
+   position: absolute;
+   padding-top: 1vh;
+   top: 10vh;
+   left: 0;
+   /* height: 200vh; */
+   overflow: auto;
+
+   text-align: left;
+   width: 100vw;
+}
+.reportage-header{
+   height: 23vh;
+   width: 100vw;
+   border-bottom: 1px solid grey;
+}
+.reportage-header-img{
+   width: 100vw;
+   height: 13vh;
+   position: absolute;
+   top: 5vh;
+}
+.timer{
+   color: #fff;
+   font-family: Harriet Display;
+   font-size: 16px;
+}
+.bookmark-btn, .bookmark-btn2, .bookmark-btn3, .bookmark-btn4{
+   position: fixed;
+   bottom: 2vh;
+   right: 4vw;
+   cursor: pointer;
+   animation: .5s fadein;
+}
+.bookmark-btn2{top: 35vh;}
+.bookmark-btn3{top: 40vh;}
+.bookmark-btn4{top: 45vh; height: 5vh;}
+.tooltip{
+   position: fixed;
+   right: 9vw;
+   top: 65vh;
+   width: 320px;
+   height: 170px;
+   background-color: transparent;
+   font-size: 16px;
+   font-family: Harriet Display;
+   color: #000;
+   padding: 10px;
+   background-image: url(../../assets/images/icons/tooltip.png);
+   background-size: cover;
+   z-index: 999;
+   animation: fadein .5s;
+}
+.tooltip-overlay{
+   position: fixed;
+   height: 100vh;
+   width: 100vw;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.7);
+   z-index: 998;
+   animation: fadein .5s;
+}
+.close-tooltip{
+   position: absolute;
+   width: 22px;
+   right: -2.5vw;
+   top: -1.5vh;
+}
+
+.titel{
+   font-size: 6vh;
+}
+.text{float: left;}
+.foto{float: right;}
+.ingress{float: left; font-size: 2.5vh; font-style: italic;}
+.stycke{
+   text-align: left;
+}
+.genre{}
+.publicerad{}
+
+.ändra-tema{
+   color: #fff;
+   cursor: pointer;
+}
+.reportage-text{
+   color: #fff;
+   margin: auto;
+   text-align: left;
+   width: 90vw;
+   padding-left: 5vw;
+   padding-right: 5vw;
+   margin-top: 8vh;
+   padding-top: 3vh;
+   padding-bottom: 3vh;
+   font-family: Harriet Display;
+}
+
+.media-container{
+   width: 30vw;
+   height: 6vh;
+   display: flex;
+   margin: auto;
+   margin-bottom: 3vh;
+   margin-top: 2vh;
+}
+.next{
+   margin: auto;
+   width: 20px;
+}
+.previous{
+   margin: auto;
+   width: 20px;
+}
+.play{
+   margin: auto;
+   width: 20px;
+}
+.options-container{
+   width: 100vw;
+   height: 9vh;
+   position: absolute;
+   display: flex;
+   top: 17vh;
+}
+.options{
+   width: 35px;
+}
+.options-img{
+   width: 20px;
+   margin: auto;
+
+}
+
+.font-container{
+   padding-top: 9vh;
+   width: 281px;
+   height: 6vh;
+   margin: auto;
+   display: flex;
+}
+
+.font-change-icon-large{
+   position: absolute;
+   color: #fff;
+   right: 15.5vw;
+   margin-top: -6vh;
+   font-family: Harriet Display;
+   font-size: 22px;
+}
+.font-change-icon-small{
+   position: absolute;
+   color: #fff;
+   left: 15.5vw;
+   margin-top: -5.5vh;
+   font-family: Harriet Display;
+   font-size: 14px;
+}
+.rc-slider{
+   position: relative;
+   height: 14px;
+   padding: 5px 0;
+   width: 100%;
+   border-radius: 6px;
+   /* touch-action: none; */
+   box-sizing: border-box;
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.rc-slider-handle{
+   position: absolute;
+   background-image: url(../../assets/images/icons/handle.png);
+   background-size: cover;
+   width: 15px;
+   height: 24px;
+   background-color: #FFFFFF;
+   top: -5px;
+   border: 1px solid grey;
+   outline: none;
+}
+.rc-slider-rail{
+   position: absolute;
+   width: 281px;
+   background-color: #D9AD9C;
+   height: 4px;
+}
+.rc-slider-track{
+   position: absolute;
+   height: 4px;
+   background-color: #D9AD9C;
+}
+.rc-slider-step{
+   position: absolute;
+   width: 100%;
+   height: 4px;
+   background: transparent;
+}
+.rc-slider-mark{
+   position: absolute;
+   top: 18px;
+   left: 0;
+   width: 100%;
+   font-size: 12px;
+}
+.slider-container{
+   position: absolute;
+   top: 52vh;
+   left: 15vw;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.bg-color{
+   position: fixed;
+   top: 0;
+   z-index: 10;
+   height: 10vh;
+   width: 100vw;
+   background-color: #1A1A1A;
+}
