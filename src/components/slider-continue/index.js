@@ -67,8 +67,9 @@ class Continue extends Component {
                showStatus={false}
                centerMode={true}
                centerSlidePercentage={30}
-               swipeable={true}
+               swipeable={false}
                dynamicHeight={false}
+               useKeyboardArrows={true}
                >
                { this.state.data.map(data => (
                   <div>
