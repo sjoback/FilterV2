@@ -1,17 +1,9 @@
 import React, { Component } from 'react';
-
-// Sliders
-
-
 import Continue from '../../components/slider-continue/index';
 import Recommended from '../../components/slider-recommended/index';
 import Menu from '../../components/menu/index';
 import Header from '../../components/header/index';
-
-// components
 import SocialMedia from '../../components/social-media/index';
-
-
 
 import './style.css';
 

@@ -56,7 +56,7 @@ class Continue extends Component {
 
    render() {
       return (
-         <div className="fortsätt" onClick={()=>this.operation()}>
+         <div className="continue" onClick={()=>this.operation()}>
 
             <p className="slider-titel">Fortsätt läsa</p>
 
@@ -67,8 +67,9 @@ class Continue extends Component {
                showStatus={false}
                centerMode={true}
                centerSlidePercentage={30}
-               swipeable={true}
+               swipeable={false}
                dynamicHeight={false}
+               useKeyboardArrows={true}
                >
                { this.state.data.map(data => (
                   <div>

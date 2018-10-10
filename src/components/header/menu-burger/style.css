@@ -39,7 +39,7 @@
    top: 2vh;
    left: 80vw;
    z-index: 999;
-   
+
 }
 .open-burger{
    position: fixed;
@@ -158,8 +158,10 @@
 }
 .logout-text{
    position: absolute;
-   top: .5vh;
+   top: .7vh;
    left: 40vw;
+   font-family: PF Din Text Comp Pro;
+   font-size: 16px;
 }
 .logout-img{
    position: absolute;

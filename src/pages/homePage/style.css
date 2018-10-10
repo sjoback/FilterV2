@@ -25,3 +25,7 @@
    width: 100vw;
    height: 120px;
 }
+
+@keyframes slideRight {
+    100% { margin-left: 5vw; }
+}
