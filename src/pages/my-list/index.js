@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 
 import Header from '../../components/header/index';
+import SocialMedia from '../../components/social-media/index';
 
 
 import close from '../../assets/images/icons/close.svg';
@@ -130,6 +131,10 @@ class MyList extends Component {
                   null
                   )
                   }
+
+                  <div className="media-footer1">
+                  <SocialMedia />
+                  </div>
 
             </div>
 

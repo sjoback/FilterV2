@@ -377,3 +377,6 @@ justify-content: center;
    background-image: url(../../assets/images/icons/handle.png);
    background-size: cover;
 }
+.media-footer{
+   height: 5vh;
+}

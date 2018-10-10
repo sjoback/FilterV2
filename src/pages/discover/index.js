@@ -12,6 +12,7 @@ import Society from '../../components/slider-society/index';
 import Culture from '../../components/slider-culture/index';
 import Sport from '../../components/slider-sport/index';
 import Header from '../../components/header/index';
+import SocialMedia from '../../components/social-media/index';
 
 
 // Images
@@ -263,7 +264,9 @@ render() {
       :null
    }
 
-
+<div className="media-footer">
+<SocialMedia />
+</div>
 
 </div>
 );
