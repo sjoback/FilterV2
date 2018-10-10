@@ -14,8 +14,8 @@ import Discover from './pages/discover/index';
 import MyList from './pages/my-list/index';
 import Article from './pages/article/index';
 import Bookmarked from './pages/article-bookmarked/index';
-import Premium from './pages/premium/index';
 import Help from './pages/help/index';
+import Premium from './pages/premium/index';
 
 
 
@@ -36,7 +36,7 @@ class App extends Component {
                <Route exact path='/my-list' component={MyList} />
                <Route exact path='/article' component={Article} />
                <Route exact path='/bookmarked' component={Bookmarked} />
-               <Route exact path='/premium' component={Premium} />
+               <Route exact path='/free' component={Premium} />
                <Route exact path='/help' component={Help} />
             </div>
          </Router>
