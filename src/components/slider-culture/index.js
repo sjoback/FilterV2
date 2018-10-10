@@ -56,7 +56,7 @@ class Culture extends Component {
 
    render() {
       return (
-         <div className="fortsätt" onClick={()=>this.operation()}>
+         <div className="continue" onClick={()=>this.operation()}>
 
             <p className="slider-titel">Kultur</p>
 
