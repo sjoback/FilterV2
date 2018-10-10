@@ -2,6 +2,7 @@
   height: 420px;
   background-color: #373737;
   margin-top: -20px;
+  color: #fff;
 }
 
 .free-info-footer {
@@ -9,6 +10,8 @@
   background-color: #373737;
   margin-top: 40px;
   border-bottom: 100px solid white;
+  color: #fff;
+
 }
 
 .premium-footer ul {
@@ -99,7 +102,7 @@
   position: relative;
   color: white;
   font-size: 13px;
-  top: -13px;
+  top: 20px;
   left: 235px;
   text-align: center;
   font-family: PF Din Text Comp Pro;

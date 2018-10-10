@@ -1,9 +1,10 @@
-/* .filterlogo {
+.filterlogo {
    position: fixed;
   height: 42px;
   top: 2vh;
   left: 5vw;
-} */
+  z-index: 999;
+}
 
 h1 {
   text-align: center;
@@ -15,4 +16,15 @@ h1 {
   font-family: HarrietDisplay;
   line-height: 58px;
   color: #fff;
+}
+
+.fixed{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 10vh;
+   color: #fff;
+   background-color: #1A1A1A;
+   z-index: 990;
 }
