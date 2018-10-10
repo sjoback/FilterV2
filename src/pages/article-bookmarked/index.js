@@ -32,6 +32,7 @@ import Download from '../../assets/images/icons/reportage/white/download.svg';
 import Share from '../../assets/images/icons/reportage/white/share.svg';
 import Fav from '../../assets/images/icons/reportage/white/fav.svg';
 import Theme from '../../assets/images/icons/reportage/white/theme.svg';
+import FavFilled from '../../assets/images/icons/reportage/white/fav-ifylld.svg';
 
 
 
@@ -56,6 +57,12 @@ class Article extends Component {
          fontColor: this.state.bodyColor,
          active: !this.state.active
       });
+   }
+
+   toggleFav() {
+      this.setState({
+         favPressed: !this.state.favPressed
+      })
    }
 
    closeTooltip() {
@@ -147,7 +154,10 @@ class Article extends Component {
                <div className="options-container">
                   <img src={Download} className="options-img" alt="" />
                   <img src={Share} className="options-img" alt="" />
-                  <img src={Fav} className="options-img" alt="" />
+                     {this.state.favPressed?
+                           <img src={Fav} className="options-img" alt="" onClick={this.toggleFav.bind(this)} />
+                        :(<img src={FavFilled} className="options-img" alt="" onClick={this.toggleFav.bind(this)} />)
+                     }
                   {this.state.active?
                      <img src={Active} className="options-img" alt="" onClick={this.toggle.bind(this)} />
                      :(<img src={Inactive} className="options-img" alt="" onClick={this.toggle.bind(this)} />)
