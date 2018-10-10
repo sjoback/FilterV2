@@ -46,11 +46,11 @@ class Burger extends Component {
 
                <ul>
 
-                  <a className="menu-item" href="/">Vad är Premium</a>
+                  <a className="menu-item" href="/premium">Vad är Premium</a>
                   <a className="menu-item" href="/">Hem</a>
                   <a className="menu-item" href="/">Magasinet</a>
                   <a className="menu-item" href="/">Fotografer</a>
-                  <a className="menu-item" href="/">Hjälp</a>
+                  <a className="menu-item" href="/help">Hjälp</a>
                   <a className="menu-item" href="/">Om oss</a>
                   <a className="menu-item" href="/">Kontakt</a>
                </ul>
