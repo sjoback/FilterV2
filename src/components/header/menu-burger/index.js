@@ -8,6 +8,7 @@ import Profile from '../../../assets/images/profile.png';
 
 import LogoBlack from '../../../assets/images/logo-black.png';
 import MenuImg from '../../../assets/images/meny.svg';
+import { NavLink } from 'react-router-dom'
 
 
 class Burger extends Component {
@@ -45,8 +46,7 @@ class Burger extends Component {
                </div>
 
                <ul>
-
-                  <a className="menu-item" href="/premium">Vad är Premium</a>
+                  <NavLink to="/free"><p className="menu-item1">Vad är Premium</p></NavLink>                  
                   <a className="menu-item" href="/">Hem</a>
                   <a className="menu-item" href="/">Magasinet</a>
                   <a className="menu-item" href="/">Fotografer</a>
